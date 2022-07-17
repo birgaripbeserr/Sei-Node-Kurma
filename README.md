@@ -142,7 +142,7 @@ mv $HOME/sei-chain $HOME/sei
 systemctl restart seid
 journalctl -fu seid -o cat
 
-//manuel kurulum için
+//manuel kurulum için 
 cd
 rm $HOME/sei-chain -rf
 git clone https://github.com/sei-protocol/sei-chain.git && cd $HOME/sei-chain
